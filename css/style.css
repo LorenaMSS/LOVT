@@ -1,0 +1,90 @@
+* {
+  font-family: 'Ropa Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* alinhamento na horizontal */
+  align-items: center;
+  /* alinhamento na vertical */
+  padding: 5px 0px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* alinhamento na horizontal */
+  align-items: center;
+  /* alinhamento na vertical */
+}
+.sessao1 {
+  margin: 3px;
+}
+
+.top-head {
+  height: 49px;
+  width: 697px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.logo {
+  padding-left: 44px;
+  padding-bottom: 16px;
+  padding-top: 8px;
+}
+.lema {
+  padding-bottom: 14px;
+}
+.vetor {
+  padding-left: 500px;
+  padding-bottom: 19px;
+  padding-top: 13px;
+}
+.corpo {
+  background-color: #ffffff;
+  width: 697px;
+  border-radius: 8px;
+  border: 3px rgb(173, 171, 168);
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+  left: 340px;
+}
+
+.banner > img {
+  width: 608px;
+  margin: 0 auto;
+}
+
+.setas {
+  position: relative;
+  cursor: pointer;
+}
+
+.seta-left {
+  position: relative;
+  top: 120px;
+  left: 60px;
+}
+
+.seta-right {
+  position: relative;
+  top: 120px;
+  left: 80%;
+}
