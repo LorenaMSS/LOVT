@@ -5,8 +5,7 @@
 
 //let adulto = confirm('Você tem mais de 18 anos?'); // retorna booleano
 
-//let nomeUsuario = prompt('Qual seu nome?'); // retorna texto inserido pelo usuario
-let nomeUsuario = 'Hendy';
+let nomeUsuario = prompt('Qual seu nome?'); // retorna texto inserido pelo usuario
 
 let elementHeader = document.querySelector('.olaUsuario'); // seleciona o elemento html
 console.log(elementHeader);
